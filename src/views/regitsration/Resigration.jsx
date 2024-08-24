@@ -135,7 +135,7 @@ export default function Resigration() {
                       placeholder="Password"
                     />{" "}
                     <div
-                      className=" text-3xl"
+                      className=" text-3xl duration-500"
                       onClick={() => {
                         setShow(!show);
                       }}

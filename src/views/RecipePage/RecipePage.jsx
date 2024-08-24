@@ -56,7 +56,7 @@ export default function RecipePage() {
             >
               <ImBackward />
             </div>
-            <h1 className="text-4xl ms-10 md:ms-28">{recipe.strMeal}</h1>
+            <h1 className="text-4xl ms-10 md:ms-28 lobster-font">{recipe.strMeal}</h1>
           </div>
           <div className="grid lg:grid-cols-2  lg:mx-64 mt-7 ">
             <div className="md:col-span-1 row-span-1 object-cover m-auto">
@@ -67,7 +67,7 @@ export default function RecipePage() {
               />
             </div>
             <div className="md:col-span-1 row-span-1 text-center pt-20">
-              <h1 className="text-5xl">
+              <h1 className="text-5xl lobster-font">
                 {" "}
                 Ingredient required for {recipe.strMeal}
               </h1>
@@ -135,7 +135,7 @@ export default function RecipePage() {
           </div>
           <div className=" mx-10 md:mx-64 space-y-4 mt-4 mb-20">
             <h1 className="text-3xl"> Process :-</h1>
-            <p className="text-xl ">{recipe.strInstructions}</p>
+            <p className="text-2xl lobster-font ">{recipe.strInstructions}</p>
           </div>
         </div>
       ) : (

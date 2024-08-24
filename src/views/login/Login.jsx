@@ -157,12 +157,12 @@ export default function Login() {
                 -------------------------------
               </h1>
               <h1 className="text-center">
-                not register?{" "}
+                not Register?{" "}
                 <Link
                   className="text-blue-900 font-semibold"
                   to="/registration"
                 >
-                  Register
+                  Register here
                 </Link>
               </h1>
             </form>

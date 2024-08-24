@@ -98,7 +98,7 @@ export default function LocalCard({ recipe, id }) {
           contentLabel="Example Modal"
         >
           <h2 className="text-black text-3xl  font-bold dark:text-white">
-            Are you Sure of Remove this food item ?
+            Are you Sure to Remove this food item ?
           </h2>
           {/* <button onClick={closeModal}>close</button> */}
           <div className="mt-10">
